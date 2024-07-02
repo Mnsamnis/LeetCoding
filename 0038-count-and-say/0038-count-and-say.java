@@ -17,7 +17,7 @@ class Solution {
                 i++;
             }
             
-            // Append count and character to result
+            // Append count and character to result likely
             result.append(count).append(currentChar);
             
             // Reset count for next character

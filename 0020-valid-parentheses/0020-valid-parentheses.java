@@ -8,7 +8,7 @@ class Solution {
                 stack[++top] = ch; // Push open bracket onto the stack
             } else {
                 if (top == -1) {
-                    return false; // No corresponding open bracket
+                    return false; // No corresponding open bracket(base)
                 }
                 char openBracket = stack[top--];
                 if ((ch == ')' && openBracket != '(') ||

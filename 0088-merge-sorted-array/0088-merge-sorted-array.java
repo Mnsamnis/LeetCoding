@@ -4,7 +4,7 @@ class Solution {
         int j = n - 1; // Index for nums2
         int k = m + n - 1; // Index for merged nums1
         
-        // Start from the end and merge elements in non-decreasing order
+        // Start from the end and merge elements in non-decreasing order 088
         while (i >= 0 && j >= 0) {
             if (nums1[i] > nums2[j]) {
                 nums1[k--] = nums1[i--];
